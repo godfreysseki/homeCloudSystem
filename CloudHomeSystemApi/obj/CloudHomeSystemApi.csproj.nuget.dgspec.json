@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj": {}
+    "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj": {
+    "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
+        "projectUniqueName": "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
         "projectName": "CloudHomeSystemApi",
-        "projectPath": "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
+        "projectPath": "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
         "packagesPath": "C:\\Users\\Gramaxic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\obj\\",
+        "outputPath": "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gramaxic\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

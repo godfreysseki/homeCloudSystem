@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "t8G13I2rxCaz/HlOz9dBrBsspYcG/QBG4rNxlGADGixu6RvpO8IjaE3s0LKB3Aeu+cQghUm6XS8zsyRkp4gRFA==",
+  "dgSpecHash": "LI9y7YLExjsRuGbjTVjti0q4n/nLbBlnoY05lVzU6/kP48UqlcXweLjvnXqt6W/zDrfvQP7BJTFDjnRFGBrKUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gramaxic\\Desktop\\Okapi Challenge\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Gramaxic\\Desktop\\cloudHome\\homeCloudSystem\\CloudHomeSystemApi\\CloudHomeSystemApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Gramaxic\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }
