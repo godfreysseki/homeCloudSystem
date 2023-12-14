@@ -12,7 +12,15 @@ export class DeviceControlComponent implements OnInit {
   constructor(private deviceService: DeviceService) {}
 
   ngOnInit(): void {
+    this.authenticateUser();
     this.updateLightsStatus();
+  }
+
+  authenticateUser(): void {
+    this.deviceService.authenticate().subscribe(response => {
+      // In a real-world scenario, you might store the token securely for future requests
+      console.log('Authentication successful:', response.token);
+    });
   }
 
   toggleLights(): void {

@@ -11,6 +11,11 @@ export class DeviceService {
 
   constructor(private http: HttpClient) {}
 
+  authenticate(): Observable<any> {
+    const url = `${this.apiUrl}/api/lights/authenticate`;
+    return this.http.post(url, {});
+  }
+
   toggleLights(): Observable<any> {
     const url = `${this.apiUrl}/api/lights/toggle`;
     return this.http.post(url, {});
