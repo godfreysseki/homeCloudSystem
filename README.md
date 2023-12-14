@@ -14,7 +14,7 @@ Cloud Home System is a simplified component of a Cloud-based Home System, allowi
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/cloud-home-system.git
+git clone https://github.com/godfreysseki/homeCloudSystem.git
 cd cloud-home-system
 npm install
 dotnet restore
@@ -47,14 +47,6 @@ Integrate Azure SQL Database for basic data storage needs. Configure the connect
 - Documented API endpoints and their usage.
 - Overview of the application architecture.
 - Instructions for setting up and running the project locally.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Commit your changes: `git commit -am 'Add some feature'`.
-4. Push to the branch: `git push origin feature/your-feature`.
-5. Submit a pull request.
 
 ## License
 

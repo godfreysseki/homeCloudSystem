@@ -1,0 +1,9 @@
+<!-- device control UI -->
+  <div class="container mt-4">
+    <h2 class="mb-4">Lights Control</h2>
+    <div class="mb-3">
+      <img [src]="getImagePath()" alt="Lights" class="img-fluid">
+    </div>
+    <p class="lead">Lights are currently {{ lightsOn ? 'on' : 'off' }}</p>
+    <button (click)="toggleLights()" class="btn btn-primary">Toggle Lights</button>
+  </div>
