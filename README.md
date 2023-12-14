@@ -1,4 +1,4 @@
-# Cloud Home System
+# Cloud Home System by Godfrey Ssekiziyivu
 
 Cloud Home System is a simplified component of a Cloud-based Home System, allowing users to control lights. This project includes a front-end developed in AngularJS and a back-end REST API developed in .NET Core.
 
@@ -10,6 +10,7 @@ Cloud Home System is a simplified component of a Cloud-based Home System, allowi
 - npm
 - .NET Core SDK
 - Angular CLI
+- IDE for development
 
 ### Installation
 
